@@ -1,0 +1,30 @@
+#component-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 75%;
+}
+#spoilage-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+#spoilage-table td {
+  border: 1px solid black;
+  text-align: center;
+}
+#spoilage-table td:has(input) {
+  width: 10ch;
+}
+#spoilage-table tr {
+  margin: 0;
+  padding: 0;
+}
+#spoilage-table td input {
+  outline: none;
+  border: none;
+  width: 92%;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  background-color: transparent;
+}
